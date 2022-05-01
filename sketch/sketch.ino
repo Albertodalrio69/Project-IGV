@@ -192,10 +192,10 @@ void WIFI_Connection() {
   }
   //Print ESP32 IP
   Serial.println(WiFi.localIP());
-  //DNS responder started at http://Alberto69_ESP32       
-  if (MDNS.begin("Alberto69_ESP32")) {  
+  //DNS responder started at http://IGV_ESP32       
+  if (MDNS.begin("IGV_ESP32")) {  
     Serial.print("MDNS responder started at http://");
-    Serial.println("Alberto69_ESP32");
+    Serial.println("IGV_ESP32");
   }
 }
 //===WIFI-CONNECTION===//
